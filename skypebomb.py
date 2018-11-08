@@ -41,7 +41,6 @@ if options == "1" or options == "single":
 	    chat.sendMsg(msg) #
 
 if options == "2" or options == "group":
-    #https://join.skype.com/aPrDqSy8g9KW
     url = raw_input("skype_url: ")
     #using website to create spam account aka bot
     profile = webdriver.FirefoxProfile()
