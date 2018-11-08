@@ -49,12 +49,10 @@ else
 	wget https://ftp.mozilla.org/pub/firefox/releases/52.9.0esr/linux-x86_64/en-US/firefox-52.9.0esr.tar.bz2 -O firefox.tar.bz2 &> /dev/null | echo "DOWNLOADING FIREFOX"
 fi
 
-
 tar xvjf firefox.tar.bz2 &> /dev/null | echo "EXTRACTING FIREFOX"
 chmod -R 777 firefox/
 mv firefox base/ &> /dev/null | echo "MOVING FIREFOX TO THE RIGHT DIR"
 
-rm -r ngrok-* &> /dev/null | echo "CLEANING UP"
 rm *.zip
 rm *.tar.gz
 rm *.tar.bz2
